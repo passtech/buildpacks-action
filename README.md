@@ -1,6 +1,6 @@
-# @mamezou-tech/buildpacks-action
+# @bigloupe/buildpacks-action
 
-![Run action](https://github.com/mamezou-tech/buildpacks-action/workflows/Run%20action/badge.svg)
+![Run action](https://github.com/bigloupe/buildpacks-action/workflows/Run%20action/badge.svg)
 
 Build container image with [Cloud Native Buildpacks](https://buildpacks.io) in GitHub Actions.
 
@@ -12,7 +12,7 @@ on: [push]
     - uses: actions/checkout@v2
 
     - name: Build image
-      uses: mamezou-tech/buildpacks-action@master
+      uses: bigloupe/buildpacks-action@master
       with:
         image: 'foo-app'
         tag: '1.0.0'
@@ -23,7 +23,7 @@ on: [push]
     - name: Push image
 ```
 
-> buildpacks v0.17.0 will be executed.
+> buildpacks v0.18.1 will be executed.
 
 ## Inputs
 - `image` : (required) Name of container image.
@@ -46,7 +46,7 @@ on: [push]
     - uses: actions/checkout@v2
 
     - name: Build image
-      uses: mamezou-tech/buildpacks-action@master
+      uses: bigloupe/buildpacks-action@master
       with:
         image: 'sample-java-maven-app'
         path: 'samples/apps/java-maven/'
