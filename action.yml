@@ -1,4 +1,4 @@
-name: buildpacks-action
+name: buildpacks
 description: 'Execute buildpacks CLI in GitHub Actions'
 author: 'bigloupe'
 branding:
