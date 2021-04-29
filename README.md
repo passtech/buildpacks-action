@@ -58,9 +58,9 @@ on: [push]
 
 Following builders are available in :
 
--	Google:                gcr.io/buildpacks/builder:v1      Ubuntu 18 base image with buildpacks for .NET, Go, Java, Node.js, and Python                                              
--	Heroku:                heroku/buildpacks:18              Base builder for Heroku-18 stack, based on ubuntu:18.04 base image                                                        
--	Heroku:                heroku/buildpacks:20              Base builder for Heroku-20 stack, based on ubuntu:20.04 base image                                                        
--	Paketo Buildpacks:     paketobuildpacks/builder:base     Ubuntu bionic base image with buildpacks for Java, .NET Core, NodeJS, Go, Ruby, NGINX and Procfile                        
--	Paketo Buildpacks:     paketobuildpacks/builder:full     Ubuntu bionic base image with buildpacks for Java, .NET Core, NodeJS, Go, PHP, Ruby, Apache HTTPD, NGINX and Procfile     
--	Paketo Buildpacks:     paketobuildpacks/builder:tiny     Tiny base image (bionic build image, distroless-like run image) with buildpacks for Java Native Image and Go
+-	`Builder Google`:                `gcr.io/buildpacks/builder:v1`    -  Ubuntu 18 base image with buildpacks for .NET, Go, Java, Node.js, and Python                                              
+-	`Builder Heroku stack 18`:                `heroku/buildpacks:18`    -          Base builder for Heroku-18 stack, based on ubuntu:18.04 base image                                                        
+-	`Builder Heroku stack 20`:                `heroku/buildpacks:20`     -         Base builder for Heroku-20 stack, based on ubuntu:20.04 base image                                                        
+-	`Paketo Buildpacks Base image ubuntu`:     `paketobuildpacks/builder:base` -    Ubuntu bionic base image with buildpacks for Java, .NET Core, NodeJS, Go, Ruby, NGINX and Procfile                        
+-	`Paketo Buildpacks full image ubuntu`:     `paketobuildpacks/builder:full`  -   Ubuntu bionic base image with buildpacks for Java, .NET Core, NodeJS, Go, PHP, Ruby, Apache HTTPD, NGINX and Procfile     
+-	`Paketo Buildpacks small image ubuntu`:     `paketobuildpacks/builder:tiny`  -   Tiny base image (bionic build image, distroless-like run image) with buildpacks for Java Native Image and Go
