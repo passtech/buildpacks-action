@@ -56,7 +56,7 @@ on: [push]
 
 ## Available Builders 
 
-Following builders are available in :
+Following builders are available in Buildpacks.io v0.18.1 :
 
 -	`Builder Google`:                `gcr.io/buildpacks/builder:v1`    -  Ubuntu 18 base image with buildpacks for .NET, Go, Java, Node.js, and Python                                              
 -	`Builder Heroku stack 18`:                `heroku/buildpacks:18`    -          Base builder for Heroku-18 stack, based on ubuntu:18.04 base image                                                        
